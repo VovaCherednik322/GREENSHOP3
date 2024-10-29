@@ -1,0 +1,91 @@
+@font-face {
+    font-family: CeraPro-Regular;
+    src: url("/fonts/CeraPro-Regular.ttf");
+}
+
+body {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: CeraPro-Regular;
+    display: flex;
+}
+
+.content {
+    height: 774px;
+    width: 310px;
+    background-color: #FBFBFB;
+}
+.Categories {
+    padding-top: 3px;
+    margin-left: 10px;
+    color: #3D3D3D;
+    font-size: 18px;
+}
+.Categories2 {
+    font-size: 15px;
+    margin-left: 20px;
+    color: #3D3D3D;
+}
+.imgsale{
+    margin-left: -30px;
+}
+.header {
+    position: relative;
+    width: 46vw;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.p1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.p2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.img2 {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+
+
+.Product1 {
+    width: 1000px;
+    height: 350px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+  
+}
+
+   
+    
+
+footer div {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    width: 35px;
+    height: 28px;
+    text-align: center;
+    padding-top: 7px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 47vw;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.div1 {
+    background-color: #46A358;
+
+}
